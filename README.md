@@ -16,7 +16,7 @@ The learning goals of this notebook are:
 * Persist & Delopy a model in a Watson Machine Learning repository
 * Call the Watson Machine Learning Web Services 
 
-
+<img width="805" alt="mlpipeline" src="https://user-images.githubusercontent.com/18288611/51089850-6e24f000-1739-11e9-8597-2d0ace8773d9.png">
 
 ## Architecture Decisions: Choose Dataset and IBM Services & Tools
 
