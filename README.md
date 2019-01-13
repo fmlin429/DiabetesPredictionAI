@@ -44,14 +44,15 @@ Following ETL tasks have been included in Spark Pipeline:
 
 ## 4. Models Applied
 
-* Random Forest (Got the best results, included in the main program)
-Accuracy for Training dataset = 0.856877
-Test Error for Training dataset = 0.143123
+Random Forest (Got the best results, included in the main program)
 
-Accuracy  for Validation dataset = 0.744589
-Test Error for Validation dataset = 0.255411
+* Accuracy for Training dataset = 0.856877
+* Test Error for Training dataset = 0.143123
 
-* Naive Bayes and LDA (included in a sparate program (got Lower accuracy results)
+* Accuracy  for Validation dataset = 0.744589
+* Test Error for Validation dataset = 0.255411
+
+Naive Bayes and LDA (included in a sparate program with got Lower accuracy results)
 
 ## 5. Publish and Deployed to Watson Machine Learning 
 
