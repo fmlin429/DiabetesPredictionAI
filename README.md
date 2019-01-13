@@ -24,9 +24,44 @@ The learning goals of this notebook are:
 * Watson Studio for ETL & Model Development (Jupyter noteBook)
 * Watson Machine Learning for Production Deployment (API available for application)
 
-## 3. Extract, Transform and Load (ETL) through Pandas and Spark APIs
+## 4. Extract, Transform and Load (ETL) through Pandas and Spark APIs
 
 The Orginal Data looks like following: 
+
+<img width="799" alt="diabetesrawdata" src="https://user-images.githubusercontent.com/18288611/51089896-e8557480-1739-11e9-978c-4035afb40fc3.png">
+
+Following ETL tasks have been performed by Pandas:
+* Check if there are empty rows
+* Replace the cells with value 0 to the mean of the column (alternative way is to delete the related rows)
+* Remove the columns which is highly correlated with other columns
+
+Following ETL tasks have been included in Spark Pipeline:
+* Replace the characters to digital as the label column
+* Combining all feature columns together as a feature vector 
+
+## 4. Models Applied
+
+* Random Forest (Got the best results, included in the main program)
+* Naive Bayes and LDA (included in a sparate program (got Lower accuracy results)
+
+## 5. Publish and Deployed to Watson Machine Learning 
+
+
+## 6. Call Watson Machine Learning API
+
+* from Python Program in jupyter notebook 
+* from Postman 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
