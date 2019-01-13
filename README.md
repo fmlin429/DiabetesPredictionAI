@@ -57,6 +57,11 @@ Test Error for Validation dataset = 0.255411
 
 Please follow the steps in the code. 
 
+Check the deployment information from Watson ML Console. Need to update follow features to test & verify
+* Mode_ID
+* Deployment_ID
+* url 
+
 ## 6. Call Watson Machine Learning API
 
 Please follow the steps in the code. 
