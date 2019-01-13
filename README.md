@@ -35,6 +35,9 @@ Following ETL tasks have been performed by Pandas:
 * Replace the cells with value 0 to the mean of the column (alternative way is to delete the related rows)
 * Remove the columns which is highly correlated with other columns
 
+After cleanse the data
+<img width="820" alt="afterpandas" src="https://user-images.githubusercontent.com/18288611/51090125-db865000-173c-11e9-8829-80dabaa337a0.png">
+
 Following ETL tasks have been included in Spark Pipeline:
 * Replace the characters to digital as the label column
 * Combining all feature columns together as a feature vector 
@@ -42,12 +45,21 @@ Following ETL tasks have been included in Spark Pipeline:
 ## 4. Models Applied
 
 * Random Forest (Got the best results, included in the main program)
+Accuracy for Training dataset = 0.856877
+Test Error for Training dataset = 0.143123
+
+Accuracy  for Validation dataset = 0.744589
+Test Error for Validation dataset = 0.255411
+
 * Naive Bayes and LDA (included in a sparate program (got Lower accuracy results)
 
 ## 5. Publish and Deployed to Watson Machine Learning 
 
+Please follow the steps in the code. 
 
 ## 6. Call Watson Machine Learning API
+
+Please follow the steps in the code. 
 
 * from Python Program in jupyter notebook 
 * from Postman 
