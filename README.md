@@ -18,11 +18,15 @@ The learning goals of this notebook are:
 
 <img width="805" alt="mlpipeline" src="https://user-images.githubusercontent.com/18288611/51089850-6e24f000-1739-11e9-8597-2d0ace8773d9.png">
 
-## Architecture Decisions: Choose Dataset and IBM Services & Tools
+## 3. Architecture Decisions: Choose Dataset and IBM Services & Tools
 
 * Dataset: https://www.kaggle.com/uciml/pima-indians-diabetes-database (Suggest to download the modified dataset fitting this project from Github) 
 * Watson Studio for ETL & Model Development (Jupyter noteBook)
 * Watson Machine Learning for Production Deployment (API available for application)
+
+## 3. Extract, Transform and Load (ETL) through Pandas and Spark APIs
+
+The Orginal Data looks like following: 
 
 
 
