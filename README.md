@@ -29,6 +29,26 @@ The learning goals of this notebook are:
 
 <img width="913" alt="screen shot 2019-01-24 at 3 50 04 pm" src="https://user-images.githubusercontent.com/18288611/51712084-50863f00-1ff3-11e9-88b8-4190de940ca6.png">
 
+## 4. User Experience Design
+
+Slack bot takes values of the key features from the customer: 
+* Pregnancies
+* Glucose 
+* BloodPressure 
+* SkinThickness 
+* Insulin 
+* BMI 
+* DiabetesPedigreeFunction 
+* Age
+
+Results are returned from Cognitive Application: 
+* Non-Diabetes probability
+* Diabetes probability
+
+Following Chatbot reflects the user experience: 
+
+![image](https://user-images.githubusercontent.com/18288611/51712316-f8037180-1ff3-11e9-8cfb-2e0622cd1d6a.png)
+
 
 ## 3. Architecture Decisions: Choose Dataset and IBM Services & Tools
 
