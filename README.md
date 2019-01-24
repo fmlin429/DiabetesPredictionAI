@@ -79,15 +79,23 @@ Following ETL tasks have been included in Spark Pipeline:
 
 ### 7.1 Build Models (Supervised Learning) 
 
-Random Forest (Returned the best results, included in the main program)
+Accuracy (Naive Bayes Model) = 0.7292
+Accuracy (Logistic Regression Model): 0.7500
+Accuracy (Decision Tree Model): 0.6823
+Accuracy (Linear Discriminant Analysis-LDA): 0.7448
+Accuracy (Support Vector Machine - rbf Model): 0.6406
+Accuracy (Support Vector Machine - linear Model): 0.7344
+#### Accuracy (Random Forest): 0.7708
 
-* Accuracy for Training dataset = 0.856877
-* Test Error for Training dataset = 0.143123
+MAE (Naive Bayes Model): 0.4692
+MAE (Logistic Regression Model): 0.4458
+MAE (Decision Tree Model): 0.4707
+MAE (Linear Discriminant Analysis-LDA): 0.4502
+MAE (Support Vector Machine - rbf Model): 0.3594
+MAE (Support Vector Machine - linear Model): 0.4561
+MAE (Random Forest): 0.4487
 
-* Accuracy  for Validation dataset = 0.744589
-* Test Error for Validation dataset = 0.255411
-
-Naive Bayes and LDA (included in a sparate program with got Lower accuracy results)
+#### Random Forest (Returned the best results, included in the main program)
 
 ### 7.2. Build Models (Non-Supervised Learning) 
 
