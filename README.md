@@ -31,7 +31,7 @@ The learning goals of this notebook are:
 
 ## 4. User Experience Design
 
-Slack bot takes values of the key features from the customer: 
+#### Slack bot takes values of the key features from the customer: 
 * Pregnancies
 * Glucose 
 * BloodPressure 
@@ -41,11 +41,11 @@ Slack bot takes values of the key features from the customer:
 * DiabetesPedigreeFunction 
 * Age
 
-Results are returned from Cognitive Application: 
+#### Results are returned from Cognitive Application: 
 * Non-Diabetes probability
 * Diabetes probability
 
-Following Chatbot reflects the user experience: 
+#### Following Chatbot reflects the user experience: 
 
 ![image](https://user-images.githubusercontent.com/18288611/51712316-f8037180-1ff3-11e9-8cfb-2e0622cd1d6a.png)
 
