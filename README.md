@@ -50,13 +50,14 @@ The learning goals of this notebook are:
 ![image](https://user-images.githubusercontent.com/18288611/51712316-f8037180-1ff3-11e9-8cfb-2e0622cd1d6a.png)
 
 
-## 3. Architecture Decisions: Choose Dataset and IBM Services & Tools
+## 5. Architecture Decisions: Choose Dataset and IBM Services & Tools
 
 * Dataset: https://www.kaggle.com/uciml/pima-indians-diabetes-database (Suggest to download the modified dataset fitting this project from Github) 
 * Watson Studio for ETL & Model Development (Jupyter noteBook)
 * Watson Machine Learning for Production Deployment (API available for application)
+* Watson Assistant and IBM clould for Cogintive Application Development
 
-## 4. Extract, Transform and Load (ETL) through Pandas and Spark APIs
+## 6. ETL and EDA
 
 The Orginal Data looks like following: 
 
@@ -74,9 +75,11 @@ Following ETL tasks have been included in Spark Pipeline:
 * Replace the characters to digital as the label column
 * Combining all feature columns together as a feature vector 
 
-## 4. Models Applied
+## 7. Build Models (Supervised Learning) 
 
-Random Forest (Got the best results, included in the main program)
+### 7.1 Build Models (Supervised Learning) 
+
+Random Forest (Returned the best results, included in the main program)
 
 * Accuracy for Training dataset = 0.856877
 * Test Error for Training dataset = 0.143123
@@ -86,7 +89,11 @@ Random Forest (Got the best results, included in the main program)
 
 Naive Bayes and LDA (included in a sparate program with got Lower accuracy results)
 
-## 5. Publish and Deployed to Watson Machine Learning 
+### 7.2. Build Models (Non-Supervised Learning) 
+
+A simple Feedforward Neural Network was built based on the features given. 
+
+## 8. Publish and Deploy Model to Watson Machine Learning 
 
 Please follow the steps in the code. 
 
@@ -95,23 +102,8 @@ Check the deployment information from Watson ML Console. Need to update follow f
 * Deployment_ID
 * url 
 
-## 6. Call Watson Machine Learning API
-
-Please follow the steps in the code. 
-
-* from Python Program in jupyter notebook 
-* from Postman 
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 9. Apply Model through Calling the Scoring API
+* Calling through jupyter notebook 
+* Calling through Postman
+* Calling through the Node-Red Application with Watson Assistant 
 
