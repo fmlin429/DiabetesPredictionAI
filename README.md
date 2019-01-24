@@ -19,13 +19,13 @@ Goal: The Data with well known features which could be used by a common understa
 * Apply Model: Build a Cognitive Application based on the Diabetes Prediction Model deployed in Watson Machine Learning
 
 
-## 3. Overall Pipeline Steps
+## 3. Overall Pipeline & Architecture
 
 The learning goals of this notebook are:
 
-Part I. Build Model in Watson Studio
-Part II. Deplopy Model in Watson Machine Learning
-Part III. Apply Model through Chatbot build by Watson Assistant Application
+1. Build Model in Watson Studio
+2. Deplopy Model in Watson Machine Learning
+3. Apply Model through Chatbot build by Watson Assistant Application
 
 <img width="913" alt="screen shot 2019-01-24 at 3 50 04 pm" src="https://user-images.githubusercontent.com/18288611/51712084-50863f00-1ff3-11e9-88b8-4190de940ca6.png">
 
