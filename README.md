@@ -8,14 +8,16 @@ Deploy and expose the model in Watson Machine Learning
 Build up the Cognitive Application based on the deployed Model
 
 * Project Selection: 
-Goal: The Data with well known features which could be used by a common understandable applications 
+Goal: The Data with well known features which could be used by a common understandable applications. Pima Indians Diabetes Database (Primary Project). https://www.kaggle.com/uciml/pima-indians-diabetes-database
 
-Pima Indians Diabetes Database (Primary Project) 
-	https://www.kaggle.com/uciml/pima-indians-diabetes-database
+## 2. Use Case and Business Requirements
 
-## 1. Use Case and Business Requirements
+* Build Model: Based on the historical diabetics Diagnostic data to create a Diabetes Prediction Model which provides prediction for people who are likely to develop diabetes with 70% or greater accuracy
 
-Based on the historical diabetics Diagnostic data to create a prediction model which provides prediction for people who are likely to develop diabetes with 70% or greater accuracy. Deploy the model to Watson Machine Learning for the Model Evaluation 
+* Deploy Model: Deploying the model to Watson Machine Learning for the Model Evaluation 
+
+* Apply Model: Build a Cognitive Application based on the Diabetes Prediction Model deployed in Watson Machine Learning
+
 
 ## 2. Overall Pipeline Steps
 
