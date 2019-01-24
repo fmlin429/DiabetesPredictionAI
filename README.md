@@ -19,18 +19,16 @@ Goal: The Data with well known features which could be used by a common understa
 * Apply Model: Build a Cognitive Application based on the Diabetes Prediction Model deployed in Watson Machine Learning
 
 
-## 2. Overall Pipeline Steps
+## 3. Overall Pipeline Steps
 
 The learning goals of this notebook are:
 
-* Load a CSV file into the Object Storage Service linked to Watson Studio
-* Pandas Datafame to clean and fix the dataset
-* Apache® Spark machine learning model Pipe line with Random Forest Regression
-* Train and evaluate the model
-* Persist & Delopy a model in a Watson Machine Learning repository
-* Call the Watson Machine Learning Web Services 
+Part I. Build Model in Watson Studio
+Part II. Deplopy Model in Watson Machine Learning
+Part III. Apply Model through Chatbot build by Watson Assistant Application
 
-<img width="805" alt="mlpipeline" src="https://user-images.githubusercontent.com/18288611/51089850-6e24f000-1739-11e9-8597-2d0ace8773d9.png">
+<img width="913" alt="screen shot 2019-01-24 at 3 50 04 pm" src="https://user-images.githubusercontent.com/18288611/51712084-50863f00-1ff3-11e9-88b8-4190de940ca6.png">
+
 
 ## 3. Architecture Decisions: Choose Dataset and IBM Services & Tools
 
