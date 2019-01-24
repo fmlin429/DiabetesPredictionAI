@@ -1,5 +1,17 @@
-# Predict Diabetes with Watson Machine Learning
+# Prototyping a Cognitive Application on Diabetes  Diagnosis on Watson AI PaaS Services
 Capstone Project: Predict Diabetes with Watson Machine Learning
+
+## 1. Learning Goals
+* Experience all the essential steps by building the Cognitive Application based on Data Science (AI, Machine learning)
+Build, Train, and analysis the Model in Watson Studio 
+Deploy and expose the model in Watson Machine Learning
+Build up the Cognitive Application based on the deployed Model
+
+* Project Selection: 
+Goal: The Data with well known features which could be used by a common understandable applications 
+
+Pima Indians Diabetes Database (Primary Project) 
+	https://www.kaggle.com/uciml/pima-indians-diabetes-database
 
 ## 1. Use Case and Business Requirements
 
