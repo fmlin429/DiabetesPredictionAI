@@ -113,6 +113,6 @@ Check the deployment information from Watson ML Console. Need to update follow f
 ## 9. Apply Model through Calling the Scoring API
 * Calling through jupyter notebook 
 * Calling through Postman
-* Calling through the Node-Red Application with Watson Assistant 
+* Calling through the Node-Red Application with Watson Assistant (Node-Red Code is included) 
 
 ![image](https://user-images.githubusercontent.com/18288611/51723592-48dc8f80-201f-11e9-94d8-62477b6918fd.png)
