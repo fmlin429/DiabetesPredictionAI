@@ -1,6 +1,9 @@
 # Prototyping a Cognitive Application on Diabetes  Diagnosis on Watson AI PaaS (Watson Studio, Watson ML, Watson Assistant)
 Capstone Project: Predict Diabetes with Watson Machine Learning
 
+Youtube Video to Stakeholders: 
+https://youtu.be/M4aMxwCC5KM
+
 ## 1. Learning Goals
 * Experience all the essential steps by building the Cognitive Application based on Data Science (AI, Machine learning)
 Build, Train, and analysis the Model in Watson Studio 
